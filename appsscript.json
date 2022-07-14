@@ -1,0 +1,51 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "OAuth2",
+        "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+        "version": "38"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "urlFetchWhitelist": [
+    "https://graph.facebook.com/",
+    "https://cloud.portermetrics.com/",
+    "https://api.mailerlite.com/",
+    "https://dev-api.portermetrics.com/",
+    "https://test-api.portermetrics.com/",
+    "https://uat-api.portermetrics.com/",
+    "https://api.portermetrics.com/",
+    "https://portermetrics16468.api-us1.com/"
+  ],
+  "dataStudio": {
+    "name": "Connector Template",
+    "logoUrl": "https://portermetrics.com/wp-content/uploads/2020/05/icono-fondo-azul-circular200.png",
+    "company": "Porter Metrics",
+    "addonUrl": "https://portermetrics.com/en/connectors/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/",
+    "supportUrl": "https://portermetrics.com/en/help/",
+    "description": "Connect your XXXXXXXXXXXXXXXXXXXXXXXX efforts. Visualize, reach, engagements, reactions, posts data, images, Messenger insights, and more. Templates and guides included.",
+    "sources": [
+      "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    ],
+    "templates": {
+      "default": "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    "shortDescription": "Visualize pages, reactions, images, posts, Messenger, reach and more. Templates and guides included.",
+    "authType": [
+      "OAUTH2"
+    ],
+    "feeType": [
+      "FREE_TRIAL"
+    ],
+    "privacyPolicyUrl": "https://portermetrics.com/en/privacy-policy/",
+    "termsOfServiceUrl": "https://portermetrics.com/en/tos/"
+  }
+}
